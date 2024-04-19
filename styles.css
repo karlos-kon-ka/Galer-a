@@ -63,16 +63,16 @@ body{
 }
 section{
     background: linear-gradient(yellow, rgb(88, 57, 57));
-
+    margin: 10px;
     border-radius: 8px;
     box-shadow: 1px 1px 10px white;
     columns: 2;
-    padding: 16px;
+    padding: 10px;
     column-gap: 25px;
     margin-top: 50px;
 }
 
-section img{
+.slide{
     border-radius: 8px;
     
     cursor: pointer;
@@ -112,4 +112,15 @@ footer{
     width: 100%;
     max-width: 400px;
     gap: 20px;
+}
+.luchadores{
+    display: flex;
+    columns: 2;
+    text-align: center;
+}
+@media screen and (max-width: 400px){
+    card{
+        width: 100%;
+        max-width: 100px;
+    }
 }
