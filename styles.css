@@ -82,7 +82,7 @@ section img{
     margin-bottom: 10px;
     border: solid 1.5px white;
     box-shadow: 1px 1px 10px white ;
-    animation: revelar linear ;
+    animation: revelar linear both;
     animation-timeline: view();
     animation-range: entry 30% cover 60%;
 }
@@ -93,18 +93,10 @@ section img{
     box-shadow: 1px 1px 10px red;
     animation: revelar linear both;
     animation-timeline: view();
-    animation-range: entry 20% cover 35%;
+    animation-range: entry 30% cover 60%;
 }
 
-.full-screen {
-    width: 50%;
-    height: 50%;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 9999;
-}
+
 footer{
     color: white;
     text-align: center;
@@ -115,13 +107,9 @@ footer{
     padding: 10px 0;
     
 }
-.animated-image {
-    
-    animation: revelar linear;
-    animation-play-state: running;
-}
+
 .frame iframe{
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     gap: 20px;
 }
